@@ -16,8 +16,6 @@
 /dist
 
 # Local Environment Files
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -32,6 +30,7 @@
 tsconfig.tsbuildinfo
 next-env.d.ts
 .turbo
+temp_auto_push.bat
 
 # OS Generated Files
 .DS_Store
@@ -44,9 +43,6 @@ Thumbs.db
 desktop.ini
 
 # IDE & Editor Files
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
 .idea/
 *.suo
 *.ntvs*
@@ -69,3 +65,6 @@ scratch/
 
 # Local Assignment PDF (exclude binary download from repo)
 Hive_Inspect_Template_Importer_Assignment*.pdf
+.gitignore
+branch_structure.json
+config.bat
